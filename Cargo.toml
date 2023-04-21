@@ -29,3 +29,6 @@ strum = { version = "0.24.1" }
 strum_macros = { version = "0.24.3" }
 test-case = { version = "2.2.2" }
 thiserror = { version = "1.0.37" }
+
+[patch."https://github.com/starkware-libs/starknet-api"]
+starknet_api = { git = "https://github.com/dojoengine/starknet-api", rev = "07432d6acd1afc83d341a01ffd49c55ef06146cd" }
